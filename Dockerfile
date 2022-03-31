@@ -1,12 +1,15 @@
-# Tags: latest, 7.17.1-debian-10-r30, 7.17.1, 7-debian-10, 7
+# Tags: latest, 7.17.1-debian-10-r31, 7.17.1, 7-debian-10, 7
 FROM bitnami/logstash:latest
-FROM bitnami/logstash:7.17.1-debian-10-r30
+FROM bitnami/logstash:7.17.1-debian-10-r31
 FROM bitnami/logstash:7.17.1
 FROM bitnami/logstash:7-debian-10
 FROM bitnami/logstash:7
 
 # Tags: _
 FROM bitnami/logstash:_
+
+# Tags: 7.17.1-debian-10-r30
+FROM bitnami/logstash:7.17.1-debian-10-r30
 
 # Tags: 7.17.1-debian-10-r29
 FROM bitnami/logstash:7.17.1-debian-10-r29
@@ -91,6 +94,3 @@ FROM bitnami/logstash:7.17.1-debian-10-r3
 
 # Tags: 7.17.1-debian-10-r2
 FROM bitnami/logstash:7.17.1-debian-10-r2
-
-# Tags: 7.17.1-debian-10-r0
-FROM bitnami/logstash:7.17.1-debian-10-r0
