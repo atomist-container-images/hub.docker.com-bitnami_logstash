@@ -5,14 +5,17 @@ FROM bitnami/logstash:8.1.3
 FROM bitnami/logstash:8-debian-10
 FROM bitnami/logstash:8
 
-# Tags: _
-FROM bitnami/logstash:_
-
-# Tags: 7.17.3-debian-10-r11, 7.17.3, 7-debian-10, 7
-FROM bitnami/logstash:7.17.3-debian-10-r11
+# Tags: 7.17.3-debian-10-r12, 7.17.3, 7-debian-10, 7
+FROM bitnami/logstash:7.17.3-debian-10-r12
 FROM bitnami/logstash:7.17.3
 FROM bitnami/logstash:7-debian-10
 FROM bitnami/logstash:7
+
+# Tags: _
+FROM bitnami/logstash:_
+
+# Tags: 7.17.3-debian-10-r11
+FROM bitnami/logstash:7.17.3-debian-10-r11
 
 # Tags: 8.1.3-debian-10-r10
 FROM bitnami/logstash:8.1.3-debian-10-r10
